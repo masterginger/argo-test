@@ -1,6 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
+  name: wf1
   generateName: timeouts-step-
 spec:
   entrypoint: sleep
