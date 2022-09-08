@@ -11,4 +11,4 @@ spec:
       image: argoproj/argosay:v2
       command: [bash, -c]
       args: ["echo 123; sleep 1d"]
-    activeDeadlineSeconds: 10
+    activeDeadlineSeconds: 30
