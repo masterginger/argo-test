@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
-  name: workflow-release-8fb46d4356fe656c-chart-k8s-tw-deploy-prod-2931652957
+  name: random-name
   generateName: timeouts-step-
 spec:
   entrypoint: sleep
