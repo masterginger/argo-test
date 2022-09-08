@@ -1,0 +1,15 @@
+global:
+  # -- (String) Application group name
+  appGroup: unset
+
+nginx:
+  image:
+    tag: 1.21.6
+  service:
+    type: ClusterIP
+  initContainers:
+    - name: init
+      image: busybox:1.28
+      command: ['sleep', '120']
+  commonLabels:
+    deploymentTag: v6
