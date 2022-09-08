@@ -10,5 +10,5 @@ spec:
     container:
       image: argoproj/argosay:v2
       command: [bash, -c]
-      args: ["echo 123; sleep 1d"]
+      args: ["echo 123; sleep 1s"]
     activeDeadlineSeconds: 10
